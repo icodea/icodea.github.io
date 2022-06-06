@@ -34,5 +34,5 @@ git init
 git add -A
 git commit -m 'deploy'
 
-#git push -f git@github.com:icodea/icodea.github.io.git main:gh-pages
-git push -u origin main:gh-pages
+git push -f git@github.com:icodea/icodea.github.io.git main:gh-pages
+#git push -u origin gh-pages

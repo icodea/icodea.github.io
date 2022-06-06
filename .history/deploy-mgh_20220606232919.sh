@@ -5,6 +5,9 @@ set -e
 
 # deploy to main
 
+# 生成静态文件
+pnpm docs:build
+
 # 如果是发布到自定义域名
 # echo 'www.example.com' > CNAME
 
@@ -20,8 +23,6 @@ git push -u origin main
 #git push -f git@github.com:icodea/blog.git main
 
 
-# deploy to github pages
-
 pnpm docs:build
 
 # 进入生成的文件夹
@@ -34,5 +35,5 @@ git init
 git add -A
 git commit -m 'deploy'
 
-#git push -f git@github.com:icodea/icodea.github.io.git main:gh-pages
-git push -u origin main:gh-pages
+git push -f git@github.com:icodea/icodea.github.io.git main:gh-pages
+#git push -u origin gh-pages
