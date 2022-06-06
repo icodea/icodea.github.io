@@ -7,8 +7,8 @@
         "docs:build": "vuepress build docs",
         "docs:clean-dev": "vuepress dev docs --clean-cache",
         "docs:dev": "vuepress dev docs",
-
-        "deploy-mgh": "bash deploy-mgh.sh"
+        "deploy-gh": "pnpm docs:build && bash deploy-gh.sh",
+        "deploy-m": "bash deploy-m.sh"
     },
     "devDependencies": {
         "@vuepress/client": "^2.0.0-beta.46",

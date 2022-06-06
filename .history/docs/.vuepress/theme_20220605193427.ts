@@ -96,9 +96,9 @@ export default hopeTheme({
        */
       provider: "Giscus",
       repo: "icodea/icodea.github.io",
-      repoId: "R_kgDOHc5-NQ",
-      category: "General",
-      categoryId: "DIC_kwDOHc5-Nc4CPen_",
+      repoId: "R_kgDOHb4gDQ",
+      category: "Announcements",
+      categoryId: "DIC_kwDOHb4gDc4CPbDg",
 
       /**
        * Using twikoo

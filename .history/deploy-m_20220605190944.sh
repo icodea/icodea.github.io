@@ -7,7 +7,7 @@ set -e
 # pnpm docs:build
 
 # 进入生成的文件夹
-cd docs/.vuepress/dist
+# cd docs/.vuepress/dist
 
 # 如果是发布到自定义域名
 # echo 'www.example.com' > CNAME
@@ -15,14 +15,13 @@ cd docs/.vuepress/dist
 git init
 git add -A
 git commit -m 'deploy'
+git br
 
 # 如果发布到 https://<USERNAME>.github.io
-git push -f git@github.com:icodea/icodea.github.io.git main:gh-pages
+git push -f git@github.com:icodea/icodea.github.io.git main
 
 # 如果发布到 https://<USERNAME>.github.io/<REPO>
-# git push -f git@github.com:<USERNAME>/<REPO>.git master:gh-pages
+#git push -f git@github.com:icodea/blog.git main
 
 # 把上面的 <USERNAME> 换成你自己的 Github 用户名，<REPO> 换成仓库名，比如我这里就是：
-# git push -f git@github.com:icodea/blog.git master:gh-pages
-
-cd -
+#git push -f git@github.com:icodea/blog.git master:gh-pages

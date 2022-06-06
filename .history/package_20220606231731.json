@@ -8,7 +8,7 @@
         "docs:clean-dev": "vuepress dev docs --clean-cache",
         "docs:dev": "vuepress dev docs",
 
-        "deploy-mgh": "bash deploy-mgh.sh"
+        "deploy-mgh": "bash deploy-m&gh.sh"
     },
     "devDependencies": {
         "@vuepress/client": "^2.0.0-beta.46",
