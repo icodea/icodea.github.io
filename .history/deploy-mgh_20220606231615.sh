@@ -16,8 +16,7 @@ git add -A
 git commit -m 'deploy'
 
 # 如果发布到 https://<USERNAME>.github.io
-# git push -f git@github.com:icodea/icodea.github.io.git main
-git push -u origin main
+git push -f git@github.com:icodea/icodea.github.io.git main
 
 # 如果发布到 https://<USERNAME>.github.io/<REPO>
 #git push -f git@github.com:icodea/blog.git main
@@ -33,5 +32,4 @@ git init
 git add -A
 git commit -m 'deploy'
 
-#git push -f git@github.com:icodea/icodea.github.io.git main:gh-pages
-git push -u origin main:gh-pages
+git push -f git@github.com:icodea/icodea.github.io.git main:gh-pages
