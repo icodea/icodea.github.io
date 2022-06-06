@@ -6,15 +6,15 @@ export default hopeTheme({
   hostname: "https://vuepress-theme-hope-v2-demo.mrhope.site",
 
   author: {
-    name: "Mr.Hope",
-    url: "https://mrhope.site",
+    name: "iCode",
+    url: "https://icodex.vercel.app",
   },
 
   iconPrefix: "iconfont icon-",
 
   logo: "/logo.svg",
 
-  repo: "vuepress-theme-hope/vuepress-theme-hope",
+  repo: "icodea/icodea.github.io",
 
   docsDir: "demo/src",
 
@@ -24,15 +24,18 @@ export default hopeTheme({
   // sidebar
   sidebar: sidebar,
 
-  footer: "默认页脚",
+  footer: "Hello World! Hello Code!",
 
   displayFooter: true,
 
   pageInfo: ["Author", "Original", "Date", "Category", "Tag", "ReadingTime"],
 
   blog: {
-    description: "一个前端开发者",
+    name: "iCode",
+    avatar: "/logo.svg",
+    description: "Learning to Coding.",
     intro: "/intro.html",
+    
     medias: {
       // Baidu: "https://example.com",
       GitHub: "https://github.com/icodea",

@@ -39,4 +39,4 @@ git commit -m 'deploy'
 
 git remote add origin https://github.com/icodea/icodea.github.io.git
 git branch -M gh-pages
-git push -u origin gh-pages
+git push -u origin main:gh-pages

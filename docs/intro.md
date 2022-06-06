@@ -1,6 +1,6 @@
 ---
 icon: info
-navbar: false
+#navbar: false
 sidebar: false
 ---
 

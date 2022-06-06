@@ -2,10 +2,11 @@
 icon: edit
 date: 2022-01-01
 category:
-  - CategoryA
+  - HTML
+  - Web
 tag:
-  - tag A
-  - tag B
+  - HTML
+  - Web
 ---
 
 # 文章 1
